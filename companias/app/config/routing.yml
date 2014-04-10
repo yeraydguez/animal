@@ -1,0 +1,4 @@
+yddgt:
+    resource: "@YDDGTBundle/Resources/config/routing.yml"
+    prefix:   /
+

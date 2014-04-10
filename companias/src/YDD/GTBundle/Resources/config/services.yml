@@ -1,0 +1,7 @@
+parameters:
+#    yddgt.example.class: YDD\GTBundle\Example
+
+services:
+#    yddgt.example:
+#        class: %yddgt.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
