@@ -4,9 +4,9 @@
 
 {% block stylesheets %}
         {% stylesheets 
-            'bundles/pfcapp/js/ext-4/resources/css/ext-all-neptune.css'
-            'bundles/pfcapp/js/app/resources/css/fonts.css'
-            'bundles/pfcapp/js/app/resources/css/app.css'  filter='cssrewrite' %}
+            'bundles/yddgt/js/ext-4/resources/css/ext-all-neptune.css'
+            'bundles/yddgt/js/app/resources/css/fonts.css'
+            'bundles/yddgt/js/app/resources/css/app.css'  filter='cssrewrite' %}
             <link href="{{ asset_url }}" type="text/css" rel="stylesheet" />
 		{% endstylesheets %}
 {% endblock %}
@@ -14,13 +14,13 @@
 {% block javascripts %}
 
     {% javascripts 
-        '@PFCAppBundle/Resources/public/js/ext-4/ext-all.js'
-        '@PFCAppBundle/Resources/public/js/ext-4/locale/ext-lang-es.js'
-        '@PFCAppBundle/Resources/public/js/app/controller/*'
-        '@PFCAppBundle/Resources/public/js/app/model/*'
-        '@PFCAppBundle/Resources/public/js/app/store/*' 
-        '@PFCAppBundle/Resources/public/js/app/view/*'                 
-        '@PFCAppBundle/Resources/public/js/app.js' %}
+        '@YDDGTBundle/Resources/public/js/ext-4/ext-all.js'
+        '@YDDGTBundle/Resources/public/js/ext-4/locale/ext-lang-es.js'
+        '@YDDGTBundle/Resources/public/js/app/controller/*'
+        '@YDDGTBundle/Resources/public/js/app/model/*'
+        '@YDDGTBundle/Resources/public/js/app/store/*' 
+        '@YDDGTBundle/Resources/public/js/app/view/*'                 
+        '@YDDGTBundle/Resources/public/js/app.js' %}
         <script type="text/javascript" src="{{ asset_url }}"></script>
 
     {% endjavascripts %}

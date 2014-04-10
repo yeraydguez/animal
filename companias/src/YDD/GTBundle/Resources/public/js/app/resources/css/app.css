@@ -1,0 +1,37 @@
+/*
+.etiqueta_usuario:hover {
+	//color: #3892D3;
+	color:#f00;
+	text-decoration:line-through;
+	//font-weight: bold;
+	//text-decoration: underline;
+}
+*/
+
+.x-grid-row .x-grid-cell-inner {
+	white-space: normal;
+}
+
+.completado .x-grid-cell  { 
+    background-color:  #DFD;
+}
+
+.incidencia .x-grid-cell  { 
+    background-color:  #FDD	;
+}
+
+.en_espera .x-grid-cell  { 
+    background-color:  #DDD	;
+}
+
+.x-grid-row-selected.completado .x-grid-cell  {
+    color: #090;
+}
+
+.x-grid-row-selected.incidencia .x-grid-cell  {
+    color: #D33;
+}
+
+
+//#FFA500 #FFFFDD  #C1DDF1
+// rosa fondo   #FDF        letras #B0B;
