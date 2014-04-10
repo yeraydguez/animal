@@ -1,0 +1,32 @@
+<?php
+
+namespace YDD\GTBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Compania
+ *
+ * @ORM\Table(name="compania", uniqueConstraints={@ORM\UniqueConstraint(name="compania", columns={"nombre"})})
+ * @ORM\Entity
+ */
+class Compania
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="smallint", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nombre", type="string", length=20, nullable=false)
+     */
+    private $nombre;
+
+
+}
